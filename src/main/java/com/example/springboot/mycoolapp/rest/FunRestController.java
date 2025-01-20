@@ -14,6 +14,13 @@ public class FunRestController {
     @Value("${team.name")
     private String teamName;
 
+    //expose new endpoint for "teaminfo"
+
+    @GetMapping("/teaminfo")
+    public String getTeamInfo() {
+        return "Coach: " + coachName + ", Team name: " + teamName;
+    }
+
     // expose "/" that return "Hello World"
     @GetMapping(" /")
     public String sayHello() {
