@@ -6,6 +6,10 @@ public class Human {
     int height;
     String eyeColor;
 
+    public Human(){
+
+    }
+
     public void speak(){
         System.out.println("Hello, my name is "+name);
         System.out.println("My age is "+ age);
