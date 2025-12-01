@@ -1,3 +1,5 @@
+package com.example.springboot.mycoolapp.Human;
+
 public class Earth {
 
     public static void main(String []args){
@@ -7,7 +9,7 @@ public class Earth {
 
         hum2.speak();
         hum1.speak();
-       
+
 
 
 
