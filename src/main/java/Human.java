@@ -7,6 +7,10 @@ public class Human {
     String eyeColor;
 
     public Human(){
+        age = 5;
+        height = 88;
+        name = "Shagufta";
+        eyeColor = "Blue";
 
     }
 
