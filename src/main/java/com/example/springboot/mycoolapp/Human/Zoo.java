@@ -1,4 +1,4 @@
-package com.example.springboot.mycoolapp.Zoo;
+package com.example.springboot.mycoolapp.Human;
 
 public class Zoo {
 
