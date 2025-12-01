@@ -6,12 +6,11 @@ public class Human {
     int height;
     String eyeColor;
 
-    public Human(){
-        age = 5;
-        height = 88;
-        name = "Shagufta";
-        eyeColor = "Blue";
-
+    public Human(String name, int age, int height, String eyeColor) {
+        this.name = name;
+        this.age = age;
+        this.height = height;
+        this.eyeColor = eyeColor;
     }
 
     public void speak(){
