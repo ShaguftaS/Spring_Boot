@@ -12,8 +12,6 @@ public class Animal {
         this.weight = weight;
     }
 
-
-
     public void eat(){
         System.out.println("eating ...");
     }

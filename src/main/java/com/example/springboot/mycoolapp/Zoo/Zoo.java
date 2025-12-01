@@ -9,5 +9,11 @@ public class Zoo {
         an.sleep();
         an.play();
 
+        bird b1 = new bird();
+        b1.fly();
+
+        fish f1 = new fish();
+        f1.swim();
+
     }
 }
