@@ -11,6 +11,14 @@ public class Earth {
 
         shagufta.speak();
 
+        Human Joel = new Human();
+        Joel.name = "Joel Mark";
+        Joel.age = 77;
+        Joel.height = 99;
+        Joel.eyeColor = "Brown";
+
+        Joel.speak();
+
 
 
     }
