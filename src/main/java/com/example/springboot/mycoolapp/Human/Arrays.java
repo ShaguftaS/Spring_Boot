@@ -9,7 +9,7 @@ public class Arrays {
         values[99] = 9876;
 
 
-        System.out.println(values[1]);
+        System.out.println(values[0]);
 
 
 
