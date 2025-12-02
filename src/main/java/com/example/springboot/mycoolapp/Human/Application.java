@@ -23,7 +23,7 @@ public class Application {
 
         for(String s : str){
 
-            System.out.println(str);
+            System.out.println(s);
         }
 
 
