@@ -11,6 +11,10 @@ public class Arrays {
 
         System.out.println(values[0]);
 
+        String[] word = new String[]{"My", "Name ", "is"};
+
+        System.out.println(word[1]);
+
 
 
     }
