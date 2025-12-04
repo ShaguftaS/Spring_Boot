@@ -18,6 +18,16 @@ public class Application3 {
             System.out.println(i);
         }
 
+        HashSet<String> str = new HashSet<String>();
+        str.add("Ran");
+        str.add("Box");
+        str.add("Ran");
+
+        for(String s : str){
+
+            System.out.println(s);
+        }
+
 
     }
 }
