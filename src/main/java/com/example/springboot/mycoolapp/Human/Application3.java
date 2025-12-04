@@ -11,6 +11,12 @@ public class Application3 {
         val.add(33);
         val.add(99);
         val.add(200);
+        val.add(33);
+
+        for(int i : val){
+
+            System.out.println(i);
+        }
 
 
     }
