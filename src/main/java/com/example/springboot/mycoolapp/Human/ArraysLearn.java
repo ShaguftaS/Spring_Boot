@@ -18,6 +18,7 @@ public class ArraysLearn {
         newlist.add(10);
         newlist.add(100);
         newlist.add(410);
+        newlist.add(454);
 
         list1.removeAll(newlist);
 
