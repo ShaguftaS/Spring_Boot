@@ -21,7 +21,9 @@ public class ArraysLearn {
         newlist.add(454);
 
         list1.removeAll(newlist);
+        boolean hasval = list1.contains(12);
 
+        System.out.println(hasval);
         System.out.println(list1);
     }
 }
