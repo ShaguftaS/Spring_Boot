@@ -19,7 +19,7 @@ public class ArraysLearn {
         newlist.add(100);
         newlist.add(410);
 
-        list1.addAll(newlist);
+        list1.removeAll(newlist);
 
         System.out.println(list1);
     }
