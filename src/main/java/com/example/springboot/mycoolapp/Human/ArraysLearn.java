@@ -13,6 +13,10 @@ public class ArraysLearn {
         list1.add(323);
         list1.add(878);
         list1.add(454);
+        list1.add(10);
+        list1.add(10);
+        list1.add(454);
+        list1.add(454);
 
         ArrayList<Integer> newlist = new ArrayList<Integer>();
         newlist.add(10);
@@ -20,14 +24,9 @@ public class ArraysLearn {
         newlist.add(410);
         newlist.add(454);
 
-        list1.removeAll(newlist);
-        boolean hasval = list1.contains(12);
-        boolean hasval2 = list1.contains(454);
-        boolean hasval3 = list1.isEmpty();
+        list1.retainAll(newlist);
 
-        System.out.println(hasval);
-        System.out.println(hasval2);
-        System.out.println(hasval3);
+
         System.out.println(list1);
     }
 }
