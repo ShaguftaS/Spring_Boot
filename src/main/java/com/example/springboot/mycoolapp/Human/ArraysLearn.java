@@ -1,6 +1,9 @@
 package com.example.springboot.mycoolapp.Human;
 
+import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 
 public class ArraysLearn {
 
@@ -8,7 +11,7 @@ public class ArraysLearn {
 
         int value[] = new int[100];
 
-        ArrayList<Integer> list1 = new ArrayList<Integer>();
+        HashSet<Integer> list1 = new HashSet<>();
         list1.add(12);
         list1.add(323);
         list1.add(878);
@@ -18,15 +21,13 @@ public class ArraysLearn {
         list1.add(454);
         list1.add(454);
 
-        ArrayList<Integer> newlist = new ArrayList<Integer>();
-        newlist.add(10);
-        newlist.add(100);
-        newlist.add(410);
-        newlist.add(454);
+        ArrayList<Integer> myList = new ArrayList<Integer>(list1);
 
-        list1.retainAll(newlist);
+        Collections.sort(myList);
+        System.out.println(myList);
 
 
-        System.out.println(list1);
+
+
     }
 }
