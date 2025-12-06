@@ -22,8 +22,12 @@ public class ArraysLearn {
 
         list1.removeAll(newlist);
         boolean hasval = list1.contains(12);
+        boolean hasval2 = list1.contains(454);
+        boolean hasval3 = list1.isEmpty();
 
         System.out.println(hasval);
+        System.out.println(hasval2);
+        System.out.println(hasval3);
         System.out.println(list1);
     }
 }
