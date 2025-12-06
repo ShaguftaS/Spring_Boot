@@ -16,6 +16,8 @@ public class ArraysLearn {
 
         ArrayList<Integer> newlist = new ArrayList<Integer>();
         newlist.add(10);
+        newlist.add(100);
+        newlist.add(410);
 
         list1.addAll(newlist);
 
