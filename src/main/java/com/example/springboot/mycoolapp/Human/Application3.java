@@ -1,6 +1,7 @@
 package com.example.springboot.mycoolapp.Human;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Application3 {
 
@@ -26,6 +27,16 @@ public class Application3 {
         for(String s : str){
 
             System.out.println(s);
+        }
+
+        LinkedHashSet<String> ll = new LinkedHashSet<String>();
+        ll.add("car");
+        ll.add("hi");
+        ll.add("Shagufta");
+        ll.add("car");
+
+        for (String ls : ll){
+            System.out.println(ls);
         }
 
 
