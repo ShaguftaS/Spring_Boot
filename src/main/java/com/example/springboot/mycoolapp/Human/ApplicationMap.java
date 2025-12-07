@@ -1,6 +1,7 @@
 package com.example.springboot.mycoolapp.Human;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class ApplicationMap {
 
@@ -16,6 +17,10 @@ public class ApplicationMap {
             System.out.println(dict.get(word));
             System.out.println(word);
 
+        }
+
+        for(Map.Entry<String, String> entry :dict.entrySet()){
+            System.out.println(entry);
         }
 
 
