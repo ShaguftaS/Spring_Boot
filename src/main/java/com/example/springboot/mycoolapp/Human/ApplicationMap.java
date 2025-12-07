@@ -13,6 +13,7 @@ public class ApplicationMap {
         dict.put("Confidence","state of feeling certain about the truth");
 
         for(String word: dict.keySet()){
+            System.out.println(dict.get(word));
             System.out.println(word);
 
         }
