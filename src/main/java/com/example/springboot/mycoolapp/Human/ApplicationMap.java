@@ -21,6 +21,8 @@ public class ApplicationMap {
 
         for(Map.Entry<String, String> entry :dict.entrySet()){
             System.out.println(entry);
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue());
         }
 
 
